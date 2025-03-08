@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css" />
+    <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
+  </head>
+  <body>
+    <div class="start-stop">Bắt đầu</div>
+    <div class="note invisible"><p>YOU WIN!</p></div>
+    <div class="game">
+      <div class="container1">
+        <div class="bg-green-100 text-green-500 box1"><p>1</p></div>
+        <div class="bg-red-100 text-red-500 box2"><p>2</p></div>
+        <div class="bg-blue-100 text-blue-500 box3"><p>3</p></div>
+        <div class="bg-purple-100 text-purple-500 box4"><p>4</p></div>
+        <div class="bg-pink-100 text-pink-500 box5"><p>5</p></div>
+        <div class="bg-yellow-100 text-yellow-500 box6"><p>6</p></div>
+        <div class="bg-indigo-100 text-indigo-500 box7"><p>7</p></div>
+        <div class="bg-gray-100 text-gray-500 box8"><p>8</p></div>
+        <div class="bg-emerald-100 text-emerald-500 box9"><p>9</p></div>
+        <div class="bg-amber-100 text-amber-500 box10"><p>10</p></div>
+        <div class="bg-lime-100 text-lime-500 box11"><p>11</p></div>
+        <div class="bg-black box-black"></div>
+      </div>
+      <div class="container2">
+        <div class="clock bg-blue-100">
+          <p class="clock-text">Đồng Hồ</p>
+          <p class="clock-time">00:00</p>
+        </div>
+        <div class="tutorial">
+          <p>Hướng dẫn di chuyển</p>
+          <div class="keyboard">
+            <div class="top box">
+              <p>&uarr;</p>
+            </div>
+            <div class="bot">
+              <div class="box"><p>&larr;</p></div>
+              <div class="box"><p>&darr;</p></div>
+              <div class="box"><p>&rarr;</p></div>
+            </div>
+          </div>
+
+          <div class="keyboard">
+            <div class="top box"><p>W</p></div>
+            <div class="bot">
+              <div class="box"><p>A</p></div>
+              <div class="box"><p>S</p></div>
+              <div class="box"><p>D</p></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="record-title"><h2>Lịch sử lượt chơi</h2></div>
+
+    <div class="record">
+      <div class="title"><p>#</p></div>
+      <div class="title"><p>Bước đi</p></div>
+      <div class="title"><p>Thời gian</p></div>
+    </div>
+    <script src="./main.js"></script>
+  </body>
+</html>
